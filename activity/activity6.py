@@ -9,4 +9,3 @@ def add_update():
     print(x)
     x += 15
     print(x)
-s
