@@ -9,9 +9,11 @@ def clear_console():
 while True:
     clear_console()  # Clear the console at the start of each loop
     print("Welcome to the Main Menu")
+    print("------------------------")
     print("1 - Code Challenges")
     print("2 - Activities")
     print("Type 'exit' to quit the program.")
+    print("------------------------")
     
     main_choice = input("Please choose an option: ")
 
@@ -24,7 +26,8 @@ while True:
         while True:
             clear_console()  # Clear the console for the Code Challenges menu
             print("Welcome to Code Challenge Menu")
-            print("1 - code_challenge1 \n2 - code_challenge2 \n3 - code_challenge3 \n4 - code_challenge4 \n5 - code_challenge5 \n6 - code_challenge6 \n7 - code_challenge7 \n8 - code_challenge8 \n9 - code_challenge9 \n10 - code_challenge10 \n11 - code_challenge11 \n12 - code_challenge12 \n13 - code_challenge13 \n14 - code_challenge14 \n15 - code_challenge15 \n16 - code_challenge16")
+            print("------------------------")
+            print("code_challenge1 - 1\ncode_challenge2 - 2\ncode_challenge3 - 3\ncode_challenge4 - 4\ncode_challenge5 - 5\ncode_challenge6 - 6\ncode_challenge7 - 7\ncode_challenge8 - 8\ncode_challenge9 - 9\ncode_challenge10 - 10\ncode_challenge11 - 11\ncode_challenge12 - 12\ncode_challenge13 - 13\ncode_challenge14 - 14\ncode_challenge15 - 15\ncode_challenge16 - 16\n------------------------")
             user_input = input("Enter a number (or type 'back' to return to the main menu): ")
 
             if user_input.lower() == "back":
